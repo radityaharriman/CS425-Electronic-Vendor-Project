@@ -226,7 +226,7 @@ def addCard(cardNum, cardBal, cardType):
         addCardErrorLabel.config(text="Information not valid")
     else:
         cursor.execute(
-            "insert into Customer_Card values ('"+userID+"', '"+cardType+"', '"+cardNum+"', '"+cardBal+"')")
+            "insert into Customer_Card values ('"+userID+"', '"+cardType+"', '"+cardNum+"', '"+cardBal+"', 0)")
         db.commit()
         addCardErrorLabel.config(text="Card successfully added!")
     db.close()
