@@ -607,7 +607,7 @@ customerSignInPage.grid_propagate(0)
 newAccountPage = Frame(root, height=600, width=350)
 newAccountPage.grid_propagate(0)
 
-profilePage = Frame(root, height=800, width=950)
+profilePage = Frame(root, height=800, width=1200)
 profilePage.grid_propagate(0)
 
 salesHistoryPage = Frame(root, height=800, width=950)
