@@ -625,7 +625,7 @@ newCardPage.grid_propagate(0)
 addCardPage = Frame(root, height=400, width=400)
 addCardPage.grid_propagate(0)
 
-dropCardPage = Frame(root, height=400, width=400)
+dropCardPage = Frame(root, height=400, width=600)
 dropCardPage.grid_propagate(0)
 
 changeInfoPage = Frame(root, height=600, width=600)
